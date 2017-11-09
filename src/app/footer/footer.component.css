@@ -1,0 +1,46 @@
+.footer {
+    background: rgb(0, 16, 34);
+    background-size: 100%;
+    width: 100%;
+}
+p,a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+@media screen and (min-width: 50em) and (max-width: 1000em) {
+    
+    .footer {
+        height: 100px;
+    }
+    .footer__logo {
+        background: url(/assets/images/footer/starwind_logo.png) no-repeat;
+        background-size: 3.3em;
+        margin: 20px 10px;
+        width: 30%;
+        height: 60px;
+        float: left
+    }
+    .footer__copyrights {
+        width: 50%;
+        margin-top: 37px;
+        padding-right: 15px;
+        float: right;
+        text-align: right;
+        font-size: 0.45em
+    }
+
+}
+
+@media screen and (min-width: 0em) and (max-width: 49.99em) {
+
+    .footer .footer__copyrights {
+        margin: 0 auto;
+    }
+    .footer__copyrights {
+        width: 90%;
+        text-align: center;
+        font-size: 0.6em;
+    }
+    
+}

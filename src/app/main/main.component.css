@@ -1,0 +1,177 @@
+@media screen and (min-width: 50em) and (max-width: 1000em) {
+    
+    .main {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .main__title-screen {
+        background: url(/assets/images/main/paneltitle.png) repeat-x;
+        background-size: 25% 44%;
+        background-position-y: 6%;
+        position: relative;
+        height: 40px;
+        padding-bottom: 2em;
+        margin-top: -3%;
+        text-transform: uppercase;
+        z-index: 10;
+    }
+    
+    .main__preview {
+        background-color: rgb(1, 20, 41);
+        position: relative;
+        padding-bottom: 2%;
+        z-index: 1;
+    }
+    .main__logo {
+        padding-top: 5%;
+        padding-bottom: 10%;
+        text-align: center; 
+    }
+    .main__about {
+        width: 70%;
+        margin: 0 auto;
+        font-size: 0.6em;
+    }
+    .main__about p {
+        padding-bottom: 5%;
+        text-align: justify;
+        color: rgb(5, 82, 92);
+    }
+    .main__about > p:nth-child(4n-2) {
+        text-align: center;
+        cursor: pointer;
+        color: rgb(255, 69, 0);
+    }
+    .main__about span:hover {
+        text-decoration: underline;
+    }
+    .invisible {
+        display: none;
+    }
+    .visible {
+        display: none;
+    }
+    .main__about img{
+        width: 100%;
+    }
+
+    .main__screenshots {
+        background: url(/assets/images/main/background.png) no-repeat;
+        background-size: 105% 105%;
+        background-position-x: 35%;
+        position: relative;
+        padding-bottom: 9%;
+        text-align: center;
+    }
+    .main__screenshots-gallery {
+        width: 100%;
+    }
+    .main__screenshots-gallery img {
+        width: 30%; 
+        transition-duration: 0.5s;
+        border: 2px solid black;
+    }
+    .main__screenshots-gallery img:hover {
+        cursor: zoom-in;
+        border: 2px solid black;
+    }
+    .main__screenshots-gallery img:hover:first-child {
+        transform: translate( 50%, 50%) scale(2.05)
+    }
+    .main__screenshots-gallery img:hover:nth-child(4n-2) {
+        transform: translate( -50%, 50%) scale(2.05)
+    }
+    .main__screenshots-gallery img:hover:nth-child(4n-1) {
+        transform: translate( -50%, 50%) scale(2.05)
+    }
+    .main__screenshots-gallery img:hover:nth-child(4n) {
+        transform: translate( 50%, -50%) scale(2.05)
+    }
+    .main__screenshots-gallery img:hover:nth-child(n+5) {
+        transform: translate( 50%, -50%) scale(2.05)
+    }
+    .main__screenshots-gallery img:hover:last-child {
+        transform: translate( -50%, -50%) scale(2.05)
+    }
+
+    .main__trailer {
+        background: url(/assets/images/main/background.png) no-repeat;
+        background-size: 105% 105%;
+        background-position-x: 35%;
+        width: 100%;
+        text-align: center;
+    }
+    .main__trailer-content {
+        margin-top: -32px;
+        padding-bottom: 6%;
+    }
+    .main__trailer-content--video {
+        width: 66%;
+        margin: 0 auto;
+    }
+
+    .videoWrapper {
+        position: relative;
+        height: 0;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+    }
+
+    .videoWrapper iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 1%;
+        left: 0%;
+        border-color: rgb(236, 104, 15)
+    }
+    
+    .main__download {
+        background: url(/assets/images/main/background.png) no-repeat;
+        background-size: 105%;
+        background-position-x: 35%;
+        padding-top: 1%; 
+        text-align: center;
+        }
+    .main__download-stores {
+        width: 100%;
+        padding-bottom: 7%;
+        overflow: hidden;
+    }
+    
+    .main__download-stores--steam {
+        position: relative;
+        width: 50%;
+        float: left;
+    }
+    
+    .main__download-stores--itch {
+        position: relative;
+        width: 50%;
+        float: right;
+    }
+    
+    .main__download-stores a {
+        background: rgb(196, 51, 3);
+        margin: 0% 7%; 
+        padding: 2% 7%;
+        border: 1px solid black;
+        box-shadow: 0 0 2px 1px #BDBDBD;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 0.5em; 
+    }
+    
+    .main__download-stores a:hover {
+        background-color: rgb(79, 211, 8);
+        transition: 0.5s;
+    }
+    
+    .main__download-stores img {
+        width: 60%;
+        margin: 0% 7%; 
+        transition-duration: 0.5s;
+    }
+    
+}
