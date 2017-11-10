@@ -6,7 +6,7 @@
 html, body {
     background-color: rgb(39, 40, 43);
     border: 0;
-    font-family: UnZialish, sans-serif;
+    font-family: Fantasy1, sans-serif;
                 /*'Indie Flower', cursive
                 'Amatic SC', cursive
                 'Permanent Marker', cursive
@@ -15,6 +15,6 @@ html, body {
 }
 
 @font-face {
-    font-family: UnZialish; /* Имя шрифта */
-    src: url(assets/fonts/UnZialish.ttf); /* Путь к файлу со шрифтом */
+    font-family: Fantasy1; /* Имя шрифта */
+    src: url(assets/fonts/Fantasy1.ttf); /* Путь к файлу со шрифтом */
 }
