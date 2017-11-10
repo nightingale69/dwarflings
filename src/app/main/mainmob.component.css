@@ -1,4 +1,4 @@
-@media screen and (min-width: 0em) and (max-width: 49.99em) {
+@media screen and (min-width: 0px) and (max-width: 1080px) {
     
     .main {
         width: 100%;
@@ -6,7 +6,7 @@
     }
     
     .main__title-screen {
-        background: url(/assets/images/main/panel_title.png) repeat-x;
+        background: url(/assets/images/main/paneltitle.png) repeat-x;
         background-size: 25% 44%;
         background-position-y: -6%;
         position: relative;
@@ -16,41 +16,32 @@
         text-transform: uppercase;
         z-index: 10;
     }
-    .title-screen img {
-        width: 6em;
-    }
-    .title-screen p {
-        position: relative;
-        top: -63px;
-        font-size: 0.5em;
-        color: rgb(5, 105, 97);
-    }
     
     .main__preview {
-        background-color: rgb(1, 20, 41);
+        background-color: rgb(44, 47, 51);
         position: relative;
         padding-bottom: 5%;
         z-index: 1;
     }
     .main__logo {
-        padding-top: 5%;
         padding-bottom: 5%;
         text-align: center; 
     }
     .main__logo img {
-        width: 300px;
+        width: 100%;
     }
     .main__about {
-        width: 98%;
+        width: 90%;
         margin: 0 auto;
-        font-size: 0.4em;
+        font-size: 0.8em;
     }
     .main__about p {
         padding-bottom: 5%;
         text-align: justify;
-        color: rgb(5, 82, 92);
+        color: rgb(212, 173, 141);
     }
-    .main__about > p:nth-child(4n-2) {
+    .main__about > p:nth-child(4n-2),
+    .main__about > p:last-child {
         text-align: center;
         cursor: pointer;
         text-decoration: underline;
@@ -59,7 +50,10 @@
     .invisible {
         display: none;
     }
-    .mobile__img {
+    .visible {
+        display: none;
+    }
+    .preview__img {
         display: none;
     }
     
