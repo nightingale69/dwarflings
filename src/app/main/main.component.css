@@ -150,13 +150,17 @@
     
     .main__download-stores--steam {
         position: relative;
-        width: 50%;
+        width: 33%;
         float: left;
     }
-    
+    .main__download-stores--itunes {
+        position: relative;
+        width: 33%;
+        float: left;
+    }
     .main__download-stores--itch {
         position: relative;
-        width: 50%;
+        width: 33%;
         float: right;
     }
     
